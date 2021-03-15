@@ -299,7 +299,19 @@ h1 {
     background-color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 667px) {
+    .part-1 header {
+        width: 100%;
+        height: auto;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .part-1 .buttons {
+        margin-top: 20px;
+    }
     .part-1 main {
         width: 100%;
         display: flex;
